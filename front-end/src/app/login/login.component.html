@@ -1,0 +1,19 @@
+<!-- LOG IN FORM -->
+<div class="container">
+    <form>
+        <h3 class="text-center">Log In</h3> <hr>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" [(ngModel)]="email" [ngModelOptions]="{standalone: true}" class="form-control" id="email">
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone: true}" class="form-control" id="password">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success" (click)="login()"> Log In </button> <br>
+            <span class="text-center"> Don't have any account! <a routerLink="/signup"> Create Account </a> </span>
+        </div>
+    </form>
+</div>
+

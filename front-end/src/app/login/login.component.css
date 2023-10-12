@@ -1,0 +1,14 @@
+.container
+{
+    border: 1px solid;
+    border-radius: 6px;
+    width: 40%;
+    padding: 20px;
+    margin: 100px auto;
+    background-color: white !important;
+}
+
+#txt
+{
+    font-size: small;
+}
